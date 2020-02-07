@@ -1,0 +1,26 @@
+var userName = prompt('Как вас зовут?');
+console.log(userName);
+var userAge = prompt('Сколько вам лет?');
+console.log(userAge);
+var yourData = 'Вас зовут ' + userName + '. Ваш возраст ' + userAge + ' лет';
+console.log(yourData);
+alert(yourData);
+alert('Решите пару примеров');
+
+var example1 = prompt('125 - 25 = ');
+console.log('125 - 25 = ' + 100 +  ' . Ваш результат: ' + example1);
+var example2 = prompt('125 + 25 = ');
+console.log('125 + 25 = ' + 150 +  ' . Ваш результат: ' + example2);
+var example3 = prompt('12500 - 2753 = ');
+console.log('12500 - 2753 = ' + 9747 +  ' . Ваш результат: ' + example3);
+var example4 = prompt('1235 - 25 = ');
+console.log('1235 - 25 = ' + 1210 +  ' . Ваш результат: ' + example4);
+var example5 = prompt('125 / 25 = ');
+console.log('125 / 25 = ' + 5 +  ' . Ваш результат: ' + example5);
+var example6 = prompt('125 * 10 = ');
+console.log('125 * 10 = ' + 1250 +  ' . Ваш результат: ' + example6);
+var example7 = prompt('100 - 25 + 15 = ');
+console.log('125 - 25 + 15 = ' + 90 +  ' . Ваш результат: ' + example7);
+var example8 = prompt('125 / 25 * 3 + 2 = ');
+console.log('125 / 25 * 3 + 2 = ' + 17 +  ' . Ваш результат: ' + example8);
+alert('Загляните в консоль за ответами');
